@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+    color: #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px;
+}
+
+header, .articles, .activity {
+    border: 1px solid #00FF00;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.articles h2, .activity h2 {
+    font-size: 1.5em;
+}
+
+.activity-charts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity-charts div {
+    width: 45%;
+    height: 300px;
+    border: 1px solid #00FF00;
+    margin: 10px 0;
+    background-color: rgba(0, 255, 0, 0.1);
+}
